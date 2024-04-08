@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#clock-container{
+    width: 30vw;
+    height: 50vh;
+    margin: 2rem auto 2rem 0rem;
+    background-image: url(./woh-clock-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    border-radius: 1rem;
+}
+#hour, #minute, #second{
+    transform-origin: bottom;
+    position: absolute;
+    background-color: #222;
+    border-radius: 50rem;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+#hour{
+    width: 1.5%;
+    height: 25%;
+    top: 25.9%;
+    left: 49%;
+}
+#minute{
+    width: 1.5%;
+    height: 31%;
+    top: 20%;
+    left: 49%;
+    opacity: 0.7;
+}
+#second{
+    width: 1.5%;
+    height: 36%;
+    top: 15%;
+    left: 49%;
+    opacity: 0.4;
+}
+
+label{
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}

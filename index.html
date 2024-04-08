@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>World ClocK</title>
+</head>
+<body class="bg-blue-200 overflow-y-hidden">
+
+    <!-- only date -->
+    <div class="w-1/2 h-auto mx-auto px-10 text-center mt-8">
+        <input id="date" type="text" class="w-1/2 text-center font-bold text-lg p-2 border-2 border-gray-500 rounded-lg">
+    </div>
+
+    <div class="w-full h-full px-10 flex items-center justify-between" >
+
+        <div id="clock-container">
+            <div id="hour"></div>
+            <div id="minute"></div>
+            <div id="second"></div>
+        </div>
+
+        <div class="world-clock flex mt-4 w-full">
+            <img src="./400645-removebg-preview.png" class="w-2/3 mx-auto" alt="">
+            <form class="flex flex-col mx-auto">
+
+                <label for="india">India <i class="fa-regular fa-clock h-5 w-5"></i></label>
+                <input id="india" type="text" class="w-full mx-auto rounded-lg p-2 mb-5 border-2 border-gray-400">
+
+                <label for="usa">United States Of America <i class="fa-regular fa-clock h-5 w-5"></i></label>
+                <input id="usa" type="text" class="w-full mx-auto rounded-lg p-2 mb-5 border-2 border-gray-400">
+                
+                <label for="russia">Russia <i class="fa-regular fa-clock h-5 w-5"></i></label>
+                <input id="russia" type="text" class="w-full mx-auto rounded-lg p-2 mb-5 border-2 border-gray-400">
+                
+                <label for="uk">United Kingdom <i class="fa-regular fa-clock h-5 w-5"></i></label>
+                <input id="uk" type="text" class="w-full mx-auto rounded-lg p-2 mb-5 border-2 border-gray-400">
+                
+                <label for="china">China <i class="fa-regular fa-clock h-5 w-5"></i></label>
+                <input id="china" type="text" class="w-full mx-auto rounded-lg p-2 mb-5 border-2 border-gray-400">
+                
+                <label for="dubai">Dubai <i class="fa-regular fa-clock h-5 w-5"></i></label>
+                <input id="dubai" type="text" class="w-full mx-auto rounded-lg p-2 mb-5 border-2 border-gray-400">
+
+            </form>
+        </div>
+
+    </div>
+
+    
+
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>
